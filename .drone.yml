@@ -27,7 +27,7 @@ steps:
       password:
         from_secret: docker_password
     tags:
-      - v1
+      - v3
     when:
       event: push
       branch: master
