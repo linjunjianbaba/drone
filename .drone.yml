@@ -2,7 +2,7 @@ kind: pipeline
 name: default
 
 steps:
-  - name: linter
+  - name: go
     image: golang:latest
     environment:
       GOPROXY: https://mirrors.aliyun.com/goproxy/
