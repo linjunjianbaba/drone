@@ -20,7 +20,7 @@ steps:
   - name: docker
     image: plugins/docker
     settings:
-      repo: cnych/drone-k8s-demo
+      repo: k8sz/drone-k8s-demo
       use_cache: true
       username:
         from_secret: docker_username
