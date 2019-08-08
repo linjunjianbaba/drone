@@ -12,7 +12,7 @@ func main() {
 
   r.GET("/health", func(c *gin.Context) {
     c.JSON(http.StatusOK, gin.H {
-      version: v1
+      version: v2
     })
   })
 
